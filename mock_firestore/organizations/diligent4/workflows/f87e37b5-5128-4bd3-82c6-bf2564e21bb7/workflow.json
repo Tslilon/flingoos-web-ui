@@ -1,0 +1,119 @@
+{
+  "workflow_id": "cc3e3ea0-3abd-47b4-8c35-0370d52f80e7",
+  "session_id": "9cd5bb95-ad34-4a71-beb8-4a21b9ba4d90",
+  "org_id": "diligent4",
+  "device_id": "unknown-device",
+  "processed_at": "2025-09-04T11:23:56.540364+00:00",
+  "pipeline_version": "0.1.0",
+  "status": "completed",
+  "stages": {
+    "A": {
+      "name": "Data Segmentation",
+      "status": "completed",
+      "duration_ms": 1200,
+      "segments_created": 15
+    },
+    "B": {
+      "name": "Activity Detection",
+      "status": "completed",
+      "duration_ms": 800,
+      "activities_detected": 8
+    },
+    "C": {
+      "name": "Audio Transcription",
+      "status": "completed",
+      "duration_ms": 2100,
+      "words_transcribed": 247
+    },
+    "D": {
+      "name": "Context Analysis",
+      "status": "completed",
+      "duration_ms": 1500,
+      "contexts_identified": 5
+    },
+    "E": {
+      "name": "LLM Processing",
+      "status": "completed",
+      "duration_ms": 3200,
+      "insights_generated": 12
+    },
+    "F": {
+      "name": "Workflow Generation",
+      "status": "completed",
+      "duration_ms": 900,
+      "workflow_steps": 6
+    }
+  },
+  "workflow_data": {
+    "title": "Data Analysis Session",
+    "summary": "User performed data analysis tasks including spreadsheet work, research, and documentation.",
+    "duration_seconds": 60,
+    "steps": [
+      {
+        "step": 1,
+        "action": "Opened spreadsheet application",
+        "timestamp": "00:00:05",
+        "confidence": 0.95,
+        "context": "productivity"
+      },
+      {
+        "step": 2,
+        "action": "Loaded data file with customer information",
+        "timestamp": "00:00:12",
+        "confidence": 0.88,
+        "context": "data_analysis"
+      },
+      {
+        "step": 3,
+        "action": "Applied filters to identify high-value customers",
+        "timestamp": "00:00:45",
+        "confidence": 0.92,
+        "context": "data_analysis"
+      },
+      {
+        "step": 4,
+        "action": "Created pivot table for revenue analysis",
+        "timestamp": "00:01:20",
+        "confidence": 0.89,
+        "context": "data_analysis"
+      },
+      {
+        "step": 5,
+        "action": "Generated charts for presentation",
+        "timestamp": "00:02:10",
+        "confidence": 0.91,
+        "context": "visualization"
+      },
+      {
+        "step": 6,
+        "action": "Saved analysis results to shared folder",
+        "timestamp": "00:02:45",
+        "confidence": 0.94,
+        "context": "collaboration"
+      }
+    ],
+    "insights": [
+      "User demonstrated strong analytical skills",
+      "Efficient use of spreadsheet features",
+      "Focus on data-driven decision making",
+      "Good documentation practices"
+    ],
+    "categories": [
+      "data_analysis",
+      "productivity",
+      "business_intelligence"
+    ],
+    "productivity_score": 0.87
+  },
+  "processing_metadata": {
+    "total_processing_time_ms": 9700,
+    "data_sources": [
+      "mouse_events",
+      "keyboard_events",
+      "window_changes",
+      "audio"
+    ],
+    "files_processed": 12,
+    "total_events": 1247
+  }
+}

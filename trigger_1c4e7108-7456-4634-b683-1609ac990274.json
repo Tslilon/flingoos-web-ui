@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "session": {
+    "org_id": "diligent4",
+    "device_id": "Maayans-MacBook-Pro-2.local-1a419875",
+    "session_id": "1c4e7108-7456-4634-b683-1609ac990274",
+    "time_range": {
+      "start": "2025-09-04T14:17:55.975684+00:00",
+      "end": "2025-09-04T14:18:18.298258+00:00"
+    },
+    "timezone": "UTC"
+  },
+  "options": {
+    "stages": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "media_processing": true,
+    "llm_enabled": true
+  },
+  "visibility": "private",
+  "pipeline_version": "0.1.0",
+  "config_path": "secrets/config.toml"
+}
